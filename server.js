@@ -17,9 +17,9 @@ app.use((req, res, next) => {
 // Routes
 app.get('/', (req, res) => {
   res.json({
-    message: 'Hello from Node.js service on GCP!',
+    message: 'Hey there!',
     timestamp: new Date().toISOString(),
-    version: '1.0.0'
+    version: '2.0.0'
   });
 });
 
