@@ -66,6 +66,8 @@ ehthumbs.db
 Thumbs.db
 
 # Service account keys (important!)
-*.json
+# *.json  # Commented out - we need package-lock.json for CI/CD
 service-account-key.json
-gcp-key.json 
+gcp-key.json
+*.key.json
+*-key.json 
